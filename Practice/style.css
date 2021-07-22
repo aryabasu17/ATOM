@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap')
 *{
     margin: 0;
-    paddimg: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Poppins" , sans-serif;
 
@@ -49,4 +49,22 @@ body{
     line-height: 50px;
     transform: translateX(-50%);
 }
-.sidebar ul{}
+.sidebar ul{
+    margin-top: 20px;
+
+}
+.sidebar ul li{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 5px;
+    list-style: none;
+    line-height: 50px;
+
+}
+.sidebar ul li a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+}
